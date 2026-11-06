@@ -1,0 +1,41 @@
+{
+  "name": "skill-lint",
+  "version": "0.1.0",
+  "description": "Lint SKILL.md files for AI agents: trigger clarity, examples, token cost, and overlapping intents.",
+  "type": "module",
+  "bin": {
+    "skill-lint": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "skill",
+    "skills",
+    "lint",
+    "linter",
+    "claude",
+    "markdown",
+    "cli"
+  ],
+  "author": "xingaorpw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingaorpw/skill-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xingaorpw/skill-lint/issues"
+  },
+  "homepage": "https://github.com/xingaorpw/skill-lint#readme",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
